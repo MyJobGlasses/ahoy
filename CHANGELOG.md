@@ -1,3 +1,9 @@
+## 3.0.1 [unreleased]
+
+- Made `Ahoy::Tracker` work outside of requests
+- Fixed storage of `false` values with customized store
+- Gracefully handle `ActionDispatch::RemoteIp::IpSpoofAttackError`
+
 ## 3.0.0
 
 - Made Device Detector the default user agent parser
